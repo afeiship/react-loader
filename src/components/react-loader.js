@@ -17,11 +17,6 @@ export default class extends PureComponent{
   };
   /*===properties end===*/
 
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render(){
     return (
       <i className={classNames('react-loader',this.props.className)}></i>
